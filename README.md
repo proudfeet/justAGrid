@@ -10,3 +10,7 @@ At that point, it's an all-hands-on-deck kind of endeavour, and you're doing thi
 **This grid is for you**
 
 The grid operates on a simple principle: anything that is declared (via class name) to be a `grid-item` is floated left, and an extra class added such as `desk-3-of-12` indicating how many spaces of the 12-space grid that item occupies in that media query.
+
+The grid items are also infinitely nestable since they are based on percentages.
+
+The class `group` should be used as one would use `clearfix` - in that it is used to self-clear floating child elements.
