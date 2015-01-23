@@ -75,10 +75,12 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	max-width: 900px;
 }
 
-	.grid-item {
-		float: left;
-		height: 100px;
-	}
+.grid-item {
+	float: left;
+}
+
+/*************/
+/* desk query*/
 
 	.desk-1-of-12 {
 		width: 8.333%;
@@ -127,6 +129,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	.desk-full {
 		width: 100%;
 	}
+
+/**************************/
+/* tablet-landscape query */
 
 @media (max-width: 940px) {
 
@@ -179,6 +184,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	}
 }	
 
+/*************************/
+/* tablet-portrait query */
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 
@@ -231,53 +238,56 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	}
 }	
 
+/***************/
+/* phone query */
+
 @media (max-width: 480px) {
 
-	.tablet-phone-1-of-12 {
+	.phone-1-of-12 {
 		width: 8.333%;
 	}
 
-	.tablet-phone-2-of-12 {
+	.phone-2-of-12 {
 		width: 16.666%;
 	}
 
-	.tablet-phone-3-of-12 {
+	.phone-3-of-12 {
 		width: 25%;
 	}
 
-	.tablet-phone-4-of-12 {
+	.phone-4-of-12 {
 		width: 33.333%;
 	}
 
-	.tablet-phone-5-of-12 {
+	.phone-5-of-12 {
 		width: 41.666%;
 	}
 
-	.tablet-phone-6-of-12 {
+	.phone-6-of-12 {
 		width: 50%;
 	}
 
-	.tablet-phone-7-of-12 {
+	.phone-7-of-12 {
 		width: 58.333%;
 	}
 
-	.tablet-phone-8-of-12 {
+	.phone-8-of-12 {
 		width: 66.666%;
 	}
 
-	.tablet-phone-9-of-12 {
+	.phone-9-of-12 {
 		width: 75%;
 	}
 
-	.tablet-phone-10-of-12 {
+	.phone-10-of-12 {
 		width: 83.333%;
 	}
 
-	.tablet-phone-11-of-12 {
+	.phone-11-of-12 {
 		width: 91.666%;
 	}
 
-	.tablet-phone-full {
+	.phone-full {
 		width: 100%;
 	}
 }
